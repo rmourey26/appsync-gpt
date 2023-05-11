@@ -19,7 +19,7 @@ export class AmplifyHostingStack extends Stack {
 	constructor(scope: Construct, id: string, props: HostingStackProps) {
 		super(scope, id, props)
 		const amplifyApp = new App(this, 'ProductViewer', {
-			appName: 'Kitchen Sink Product Example',
+			appName: 'GPT-One',
 			sourceCodeProvider: new GitHubSourceCodeProvider({
 				owner: props.owner,
 				repository: props.repository,
