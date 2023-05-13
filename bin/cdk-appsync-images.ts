@@ -29,7 +29,7 @@ const apiStack = new APIStack(app, 'ProductAppSyncAPIStack', {
 const fileStorageStack = new FileStorageStack(app, 'ProductFileStorageStack', {
 	authenticatedRole: identityStack.authenticatedRole,
 	unauthenticatedRole: identityStack.unauthenticatedRole,
-	allowedOrigins: ['http://localhost:3000'],
+	allowedOrigins: ['*'],
 })
 
 const amplifyHostingStack = new AmplifyHostingStack(
