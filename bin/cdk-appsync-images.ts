@@ -47,6 +47,7 @@ const amplifyHostingStack = new AmplifyHostingStack(
 		environmentVariables: {
 			USERPOOL_ID: authStack.userpool.userPoolId,
 			GRAPHQL_URL: apiStack.graphqlURL,
+			OPENAI_API_KEY: 'openai-api-token',
 		},
 	}
 )
