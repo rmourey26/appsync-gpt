@@ -24,9 +24,14 @@ of the repo associated with your NextJS app.
 After installing the dependencies using npm or yarn, deploy 
 your full stack cloudformation by running
 
-- npx aws-cdk deploy --all
+#todo add backticks 
 
-Credit: Inspired by Michael Liendo 
+npx aws-cdk deploy --all
+
+#todo add backticks 
+
+
+Credit: Inspired by an article written by Michael Liendo 
 
 
 
