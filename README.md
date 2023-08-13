@@ -1,10 +1,10 @@
 #Convert any NextJS web app to a full stack AWS CloudFormation including:
 
-Amazon Cognito: This will provide both user sign in with user pools, as well as setting service authorization via identity pools
-AWS AppSync: Our managed GraphQL API that offers real-time support via WebSockets
-Amazon DynamoDB: NoSQL database for persisting data
-Amazon CloudFront: Asset caching for the files stored in our S3 bucket
-Amazon Simple Storage Service (S3): File storage. Public images are delivered via CloudFront while protected content is served with a pre-signed URL.
+- Amazon Cognito: This will provide both user sign in with user pools, as well as setting service authorization via identity pools
+- AWS AppSync: Our managed GraphQL API that offers real-time support via WebSockets
+- Amazon DynamoDB: NoSQL database for persisting data
+- Amazon CloudFront: Asset caching for the files stored in our S3 bucket
+- Amazon Simple Storage Service (S3): File storage. Public images are delivered via CloudFront while protected content is served with a pre-signed URL.
 
 
 To run this automation, you'll need:
