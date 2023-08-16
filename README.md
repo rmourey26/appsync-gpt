@@ -19,16 +19,17 @@ than the key/value method. In this case, you'll want to use 'github-token' but y
 naming conventions as you see fit provided you're modifying the code as well
 
 Within the ./bin/cdk-appsync-images.ts file, enter the name
-of the repo associated with your NextJS app. 
+of the repo associated with the NextJS app you wish to convert
 
 After installing the dependencies using npm or yarn, deploy 
 your full stack cloudformation by running
 
-#todo add backticks 
+```
 
 npx aws-cdk deploy --all
 
-#todo add backticks 
+```
+
 
 
 Credit: Inspired by an article written by Michael Liendo 
